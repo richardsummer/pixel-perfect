@@ -94,11 +94,16 @@ p {
 }
 
 .right-box-1 {
-  background-color: yellow;
+  background-color: #FFFFFF;
   display: block;
   /* position: relative; */
   /* width: 776px; */
   height: 698px;
+}
+
+.greenville {
+  width: 371px;
+  height: 187px;
 }
 
 .right-box-2 {
