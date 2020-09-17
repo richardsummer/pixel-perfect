@@ -1,0 +1,71 @@
+body {
+  background-color: pink;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: red;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 68px;
+}
+
+.parent {
+  background-color: orange;
+  position: relative;
+  width: 1181px;
+  margin-left: 130px;
+  margin-top: 121px;
+}
+
+.left {
+  background-color: green;
+  position: absolute;
+  width: 776px;
+  margin-top: 0px;
+  margin-left: 0px;
+  display: inline-block;
+}
+
+.right {
+  background-color: yellow;
+  position: absolute;
+  width: 371px;
+  display: inline-block;
+  margin-left: 809px;
+  margin-top: 0;
+}
+
+.left-box-1 {
+  background-color: yellow;
+  /* width: 776px; */
+  height: 946px;
+}
+
+.right-box-1 {
+  background-color: yellow;
+  display: inline-block;
+  position: relative;
+  /* width: 776px; */
+  height: 702px;
+}
+
+.right-box-2 {
+  background-color: black;
+  display: block;
+  /* width: 776px; */
+  height: 702px;
+  /* margin-top: 38px; */
+}
+
+footer {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
