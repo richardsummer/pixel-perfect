@@ -1,18 +1,35 @@
 * {
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
   background-color: #F4F4F4;
 }
 
-.navbar {
+hr {
+  background-color: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-box {
   overflow: hidden;
   background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
   position: relative; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 68px;
+}
+
+.nav1 {
+  padding-left: 145px;
+}
+
+.nav2 {
+  padding-right: 135px;
 }
 
 /* .parent {
@@ -41,52 +58,66 @@ body {
   margin-top: 53px;
 }
 
-.left-box-1 {
+/* .left-box-1 {
   background-color: green;
-  /* width: 776px; */
+  display: inline-block;
+  width: 776px;
   height: 486px;
-  /* background-color: #FFFFFF; */
   text-align: center;
-}
+} */
 
+/* Image */
 .bridge {
   width: 776px;
 }
 
-.left-box-2 {
-  background-color: black;
+.left-box-1 {
+  background-color: pink;
   display: block;
   /* width: 776px; */
-  height: 458px;
+  height: 944px;
+  /* padding: 45px; */
+  /* text-align: center; */
   /* margin-top: 37px; */
 }
 
-.left-box-3 {
-  background-color: black;
+article {
+  text-align: center;
+}
+
+.article-l1 {
+  /* padding-top: 10px; */
+  text-align: center;
+}
+
+.left-box-2 {
+  background-color: pink;
   display: block;
   /* width: 776px; */
   height: 1066px;
   margin-top: 42px;
 }
 
+/* Image */
 .sculpture {
   width: 776px;
 }
 
-.left-box-4 {
-  background-color: black;
+.left-box-3 {
+  background-color: pink;
   display: block;
   /* width: 776px; */
   height: 895px;
   margin-top: 43px;
 }
 
+/* Image */
 .mouse {
   width: 776px;
 }
 
-.left-box-5 {
-  background-color: black;
+.left-box-4 {
+  background-color: pink;
   display: block;
   /* width: 776px; */
   height: 976px;
@@ -102,10 +133,18 @@ h6 {
   color: #6AB2D9;
 }
 
+h5 {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
 .h1-liberty-bridge {
-  position: absolute;
+  /* position: absolute; */
   margin-top: -9px;
-  margin-left: 125px;
+  /* margin-left: 125px; */
   font-size: 24.5px;
   font-weight: normal;
   color: #333333;
@@ -117,54 +156,89 @@ p {
   font-size: 15px;
   line-height: 1.75em;
   text-align: left;
-  padding: 45px;
+  /* padding: 45px; */
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-top: 27px;
 }
 
-.continue-reading-btn {
+button {
   background-color: #FFFFFF;
   color: #7FCCF1;
   font-size: 13px;
   width: 188px;
   height: 46px;
-  position: absolute;
-  margin-top: -21px;
-  margin-left: -95px;
+  /* position: absolute; */
+  /* margin-top: -21px;
+  margin-left: -95px; */
   letter-spacing: 0.25px;
   border-color: #EEEEEE;
   border-style: solid;
 }
 
+.continue-reading-btn-4 {
+  margin-left: 296px;
+}
+
 
 /* Img dimensions 776x486 */
-.mill {
+/* .mill {
   width: 776px;
   height: 486px;
-}
+} */
 
 .right-box-1 {
   /* background-color: #FFFFFF; */
-  background-color: black;
+  background-color: pink;
   display: block;
   /* position: relative; */
   /* width: 776px; */
   height: 702px;
 }
 
-.greenville {
+.brian {
+  border-color: black;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  width: 299px;
+  margin-top: -86px;
+}
+
+/* Image */
+.reedy {
   width: 371px;
   height: 187px;
 }
 
 .right-box-2 {
-  background-color: black;
+  background-color: pink;
   display: block;
   /* width: 776px; */
-  height: 944px;
+  height: 924px;
+  padding-top: 20px;
   margin-top: 37px;
+  text-align: center;
+}
+
+#drive {
+  width: 310px;
+  height: 176px;
+  margin-top: 6px;
+}
+
+#downtown {
+  width: 310px;
+  height: 176px;
+}
+
+#rooftop {
+  width: 310px;
+  height: 176px;
 }
 
 .right-box-3 {
-  background-color: black;
+  background-color: pink;
   display: block;
   /* width: 776px; */
   height: 512px;
@@ -172,11 +246,26 @@ p {
 }
 
 .right-box-4 {
-  background-color: black;
+  background-color: pink;
   display: block;
   /* width: 776px; */
   height: 420px;
   margin-top: 37px;
+}
+
+#footer {
+  background-color: pink;
+  position: absolute;
+  margin-top: 4105px;
+  height: 63px;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer {
+  margin-left: 530px;
+  text-align: center;
 }
 
 /* footer {
