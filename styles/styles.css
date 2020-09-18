@@ -9,7 +9,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #FFFFFF;
-  position: fixed; /* Set the navbar to fixed position */
+  position: relative; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 68px;
@@ -27,7 +27,7 @@ body {
   /* background-color: green; */
   position: absolute;
   width: 776px;
-  margin-top: 121px;
+  margin-top: 53px;
   margin-left: 130px;
   display: inline-block;
 }
@@ -35,18 +35,66 @@ body {
 .right {
   /* background-color: yellow; */
   position: absolute;
-  width: 371px;
+  width: 372px;
   display: inline-block;
-  margin-left: 940px;
-  margin-top: 121px;
+  margin-left: 939px;
+  margin-top: 53px;
 }
 
 .left-box-1 {
-  /* background-color: yellow; */
+  background-color: green;
   /* width: 776px; */
-  height: 946px;
-  background-color: #FFFFFF;
+  height: 486px;
+  /* background-color: #FFFFFF; */
   text-align: center;
+}
+
+.bridge {
+  width: 776px;
+}
+
+.left-box-2 {
+  background-color: black;
+  display: block;
+  /* width: 776px; */
+  height: 458px;
+  /* margin-top: 37px; */
+}
+
+.left-box-3 {
+  background-color: black;
+  display: block;
+  /* width: 776px; */
+  height: 1066px;
+  margin-top: 42px;
+}
+
+.sculpture {
+  width: 776px;
+}
+
+.left-box-4 {
+  background-color: black;
+  display: block;
+  /* width: 776px; */
+  height: 895px;
+  margin-top: 43px;
+}
+
+.mouse {
+  width: 776px;
+}
+
+.left-box-5 {
+  background-color: black;
+  display: block;
+  /* width: 776px; */
+  height: 976px;
+  margin-top: 44px;
+}
+
+.coffee {
+  width: 776px;
 }
 
 h6 {
@@ -94,11 +142,12 @@ p {
 }
 
 .right-box-1 {
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
+  background-color: black;
   display: block;
   /* position: relative; */
   /* width: 776px; */
-  height: 698px;
+  height: 702px;
 }
 
 .greenville {
@@ -110,8 +159,24 @@ p {
   background-color: black;
   display: block;
   /* width: 776px; */
-  height: 702px;
-  margin-top: 38px;
+  height: 944px;
+  margin-top: 37px;
+}
+
+.right-box-3 {
+  background-color: black;
+  display: block;
+  /* width: 776px; */
+  height: 512px;
+  margin-top: 37px;
+}
+
+.right-box-4 {
+  background-color: black;
+  display: block;
+  /* width: 776px; */
+  height: 420px;
+  margin-top: 37px;
 }
 
 /* footer {
